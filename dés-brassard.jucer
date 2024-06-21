@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="lophXz" name="d&#233;s-brassard" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1">
+  <MAINGROUP id="K1Egk4" name="d&#233;s-brassard">
+    <GROUP id="{7A01BC6D-CEF5-F8E0-8AD4-7AB8BC50C234}" name="Source">
+      <FILE id="vAMKV2" name="ParamHelpers.h" compile="0" resource="0" file="Source/ParamHelpers.h"/>
+      <FILE id="joH0FY" name="svf.h" compile="0" resource="0" file="../de&#769;s-brassard/Source/svf.h"/>
+      <GROUP id="{6A4EDDB5-3D27-298D-EA94-547DFA2CAA4A}" name="daisysp">
+        <GROUP id="{DEDEFACA-76B8-1CC2-5A63-8613E3F4D579}" name="Control">
+          <FILE id="f9QtWW" name="adenv.cpp" compile="1" resource="0" file="Source/daisysp/Control/adenv.cpp"/>
+          <FILE id="c5wfG4" name="adenv.h" compile="0" resource="0" file="Source/daisysp/Control/adenv.h"/>
+          <FILE id="SU4eUf" name="adsr.cpp" compile="1" resource="0" file="Source/daisysp/Control/adsr.cpp"/>
+          <FILE id="gvKS7h" name="adsr.h" compile="0" resource="0" file="Source/daisysp/Control/adsr.h"/>
+          <FILE id="Vw3iwp" name="phasor.cpp" compile="1" resource="0" file="Source/daisysp/Control/phasor.cpp"/>
+          <FILE id="IPnBXc" name="phasor.h" compile="0" resource="0" file="Source/daisysp/Control/phasor.h"/>
+        </GROUP>
+        <GROUP id="{4D7B7CCF-2090-0A3B-5413-1483A833BDA7}" name="Drums">
+          <FILE id="LohlbX" name="analogbassdrum.cpp" compile="1" resource="0"
+                file="Source/daisysp/Drums/analogbassdrum.cpp"/>
+          <FILE id="hkMaqo" name="analogbassdrum.h" compile="0" resource="0"
+                file="Source/daisysp/Drums/analogbassdrum.h"/>
+          <FILE id="fVfFiY" name="analogsnaredrum.cpp" compile="1" resource="0"
+                file="Source/daisysp/Drums/analogsnaredrum.cpp"/>
+          <FILE id="PQfDH8" name="analogsnaredrum.h" compile="0" resource="0"
+                file="Source/daisysp/Drums/analogsnaredrum.h"/>
+          <FILE id="zxhzcT" name="hihat.cpp" compile="1" resource="0" file="Source/daisysp/Drums/hihat.cpp"/>
+          <FILE id="cKM01U" name="hihat.h" compile="0" resource="0" file="Source/daisysp/Drums/hihat.h"/>
+          <FILE id="F0BPCf" name="synthbassdrum.cpp" compile="1" resource="0"
+                file="Source/daisysp/Drums/synthbassdrum.cpp"/>
+          <FILE id="sKQNAR" name="synthbassdrum.h" compile="0" resource="0" file="Source/daisysp/Drums/synthbassdrum.h"/>
+          <FILE id="S98MtQ" name="synthsnaredrum.cpp" compile="1" resource="0"
+                file="Source/daisysp/Drums/synthsnaredrum.cpp"/>
+          <FILE id="UXyh54" name="synthsnaredrum.h" compile="0" resource="0"
+                file="Source/daisysp/Drums/synthsnaredrum.h"/>
+        </GROUP>
+        <GROUP id="{073B22BB-275A-DD9C-1D03-D09C50E2B2BA}" name="Dynamics">
+          <FILE id="q0zC9P" name="crossfade.cpp" compile="1" resource="0" file="Source/daisysp/Dynamics/crossfade.cpp"/>
+          <FILE id="fCPzhN" name="crossfade.h" compile="0" resource="0" file="Source/daisysp/Dynamics/crossfade.h"/>
+          <FILE id="ztzuvU" name="limiter.cpp" compile="1" resource="0" file="Source/daisysp/Dynamics/limiter.cpp"/>
+          <FILE id="PsTSTp" name="limiter.h" compile="0" resource="0" file="Source/daisysp/Dynamics/limiter.h"/>
+        </GROUP>
+        <GROUP id="{802B39A8-6111-3DD0-DCAC-1D77B7F44357}" name="Effects">
+          <FILE id="x8NXDA" name="autowah.cpp" compile="1" resource="0" file="Source/daisysp/Effects/autowah.cpp"/>
+          <FILE id="QKp1oK" name="autowah.h" compile="0" resource="0" file="Source/daisysp/Effects/autowah.h"/>
+          <FILE id="EcUmZR" name="chorus.cpp" compile="1" resource="0" file="Source/daisysp/Effects/chorus.cpp"/>
+          <FILE id="wTiMKp" name="chorus.h" compile="0" resource="0" file="Source/daisysp/Effects/chorus.h"/>
+          <FILE id="T8OPne" name="decimator.cpp" compile="1" resource="0" file="Source/daisysp/Effects/decimator.cpp"/>
+          <FILE id="UH30XT" name="decimator.h" compile="0" resource="0" file="Source/daisysp/Effects/decimator.h"/>
+          <FILE id="XPqiUT" name="flanger.cpp" compile="1" resource="0" file="Source/daisysp/Effects/flanger.cpp"/>
+          <FILE id="VLorne" name="flanger.h" compile="0" resource="0" file="Source/daisysp/Effects/flanger.h"/>
+          <FILE id="XEYZRk" name="overdrive.cpp" compile="1" resource="0" file="Source/daisysp/Effects/overdrive.cpp"/>
+          <FILE id="Wbp70W" name="overdrive.h" compile="0" resource="0" file="Source/daisysp/Effects/overdrive.h"/>
+          <FILE id="TNjWdU" name="phaser.cpp" compile="1" resource="0" file="Source/daisysp/Effects/phaser.cpp"/>
+          <FILE id="Y8qjF1" name="phaser.h" compile="0" resource="0" file="Source/daisysp/Effects/phaser.h"/>
+          <FILE id="ZxKhbE" name="pitchshifter.h" compile="0" resource="0" file="Source/daisysp/Effects/pitchshifter.h"/>
+          <FILE id="dqaqE6" name="sampleratereducer.cpp" compile="1" resource="0"
+                file="Source/daisysp/Effects/sampleratereducer.cpp"/>
+          <FILE id="xUTUfN" name="sampleratereducer.h" compile="0" resource="0"
+                file="Source/daisysp/Effects/sampleratereducer.h"/>
+          <FILE id="q9pc4B" name="tremolo.cpp" compile="1" resource="0" file="Source/daisysp/Effects/tremolo.cpp"/>
+          <FILE id="DviLAU" name="tremolo.h" compile="0" resource="0" file="Source/daisysp/Effects/tremolo.h"/>
+          <FILE id="fboGtH" name="wavefolder.cpp" compile="1" resource="0" file="Source/daisysp/Effects/wavefolder.cpp"/>
+          <FILE id="ifnRVl" name="wavefolder.h" compile="0" resource="0" file="Source/daisysp/Effects/wavefolder.h"/>
+        </GROUP>
+        <GROUP id="{81205821-5380-4012-0FFF-A92EEC5AEA77}" name="Filters">
+          <FILE id="A1Sgfi" name="fir.h" compile="0" resource="0" file="Source/daisysp/Filters/fir.h"/>
+          <FILE id="CN0pVh" name="ladder.cpp" compile="1" resource="0" file="Source/daisysp/Filters/ladder.cpp"/>
+          <FILE id="hmp13s" name="ladder.h" compile="0" resource="0" file="Source/daisysp/Filters/ladder.h"/>
+          <FILE id="qMMQin" name="onepole.h" compile="0" resource="0" file="Source/daisysp/Filters/onepole.h"/>
+          <FILE id="RF9s6K" name="soap.cpp" compile="1" resource="0" file="Source/daisysp/Filters/soap.cpp"/>
+          <FILE id="g8PX7c" name="soap.h" compile="0" resource="0" file="Source/daisysp/Filters/soap.h"/>
+          <FILE id="g8baNs" name="svf.cpp" compile="1" resource="0" file="Source/daisysp/Filters/svf.cpp"/>
+          <FILE id="w5kcoR" name="svf.h" compile="0" resource="0" file="Source/daisysp/Filters/svf.h"/>
+        </GROUP>
+        <GROUP id="{796A21D5-C9E0-4DC6-1BF1-1F26900A87D6}" name="Noise">
+          <FILE id="FB3ek7" name="clockednoise.cpp" compile="1" resource="0"
+                file="Source/daisysp/Noise/clockednoise.cpp"/>
+          <FILE id="VBmUg0" name="clockednoise.h" compile="0" resource="0" file="Source/daisysp/Noise/clockednoise.h"/>
+          <FILE id="CkHh9m" name="dust.h" compile="0" resource="0" file="Source/daisysp/Noise/dust.h"/>
+          <FILE id="hSCkOh" name="fractal_noise.h" compile="0" resource="0" file="Source/daisysp/Noise/fractal_noise.h"/>
+          <FILE id="YmKEWP" name="grainlet.cpp" compile="1" resource="0" file="Source/daisysp/Noise/grainlet.cpp"/>
+          <FILE id="tG2PQ4" name="grainlet.h" compile="0" resource="0" file="Source/daisysp/Noise/grainlet.h"/>
+          <FILE id="Hx0sqj" name="particle.cpp" compile="1" resource="0" file="Source/daisysp/Noise/particle.cpp"/>
+          <FILE id="TWvPqO" name="particle.h" compile="0" resource="0" file="Source/daisysp/Noise/particle.h"/>
+          <FILE id="OW0byd" name="whitenoise.h" compile="0" resource="0" file="Source/daisysp/Noise/whitenoise.h"/>
+        </GROUP>
+        <GROUP id="{E028583C-FE05-CA78-F930-1D78BD202A1A}" name="PhysicalModeling">
+          <FILE id="kvQJVt" name="drip.cpp" compile="1" resource="0" file="Source/daisysp/PhysicalModeling/drip.cpp"/>
+          <FILE id="SMUZDK" name="drip.h" compile="0" resource="0" file="Source/daisysp/PhysicalModeling/drip.h"/>
+          <FILE id="yCNJxE" name="KarplusString.cpp" compile="1" resource="0"
+                file="Source/daisysp/PhysicalModeling/KarplusString.cpp"/>
+          <FILE id="B91js5" name="KarplusString.h" compile="0" resource="0" file="Source/daisysp/PhysicalModeling/KarplusString.h"/>
+          <FILE id="CCmlTW" name="modalvoice.cpp" compile="1" resource="0" file="Source/daisysp/PhysicalModeling/modalvoice.cpp"/>
+          <FILE id="memqnj" name="modalvoice.h" compile="0" resource="0" file="Source/daisysp/PhysicalModeling/modalvoice.h"/>
+          <FILE id="voTlCc" name="resonator.cpp" compile="1" resource="0" file="Source/daisysp/PhysicalModeling/resonator.cpp"/>
+          <FILE id="hzg5ta" name="resonator.h" compile="0" resource="0" file="Source/daisysp/PhysicalModeling/resonator.h"/>
+          <FILE id="NjwMmi" name="stringvoice.cpp" compile="1" resource="0" file="Source/daisysp/PhysicalModeling/stringvoice.cpp"/>
+          <FILE id="D71Lgb" name="stringvoice.h" compile="0" resource="0" file="Source/daisysp/PhysicalModeling/stringvoice.h"/>
+        </GROUP>
+        <GROUP id="{2C62C298-1F73-0989-F59E-0C6474A576AF}" name="Sampling">
+          <FILE id="Io2qI8" name="granularplayer.cpp" compile="1" resource="0"
+                file="Source/daisysp/Sampling/granularplayer.cpp"/>
+          <FILE id="HN4jnq" name="granularplayer.h" compile="0" resource="0"
+                file="Source/daisysp/Sampling/granularplayer.h"/>
+        </GROUP>
+        <GROUP id="{A171CB32-C5B2-AE2A-105C-69F67D6FFE58}" name="Synthesis">
+          <FILE id="k4baKz" name="fm2.cpp" compile="1" resource="0" file="Source/daisysp/Synthesis/fm2.cpp"/>
+          <FILE id="lsYMvq" name="fm2.h" compile="0" resource="0" file="Source/daisysp/Synthesis/fm2.h"/>
+          <FILE id="YZa2pD" name="formantosc.cpp" compile="1" resource="0" file="Source/daisysp/Synthesis/formantosc.cpp"/>
+          <FILE id="fdIAsV" name="formantosc.h" compile="0" resource="0" file="Source/daisysp/Synthesis/formantosc.h"/>
+          <FILE id="RaMJyO" name="harmonic_osc.h" compile="0" resource="0" file="Source/daisysp/Synthesis/harmonic_osc.h"/>
+          <FILE id="AW42OJ" name="oscillator.cpp" compile="1" resource="0" file="Source/daisysp/Synthesis/oscillator.cpp"/>
+          <FILE id="l8Haip" name="oscillator.h" compile="0" resource="0" file="Source/daisysp/Synthesis/oscillator.h"/>
+          <FILE id="YC5h1l" name="oscillatorbank.cpp" compile="1" resource="0"
+                file="Source/daisysp/Synthesis/oscillatorbank.cpp"/>
+          <FILE id="q2Ibe7" name="oscillatorbank.h" compile="0" resource="0"
+                file="Source/daisysp/Synthesis/oscillatorbank.h"/>
+          <FILE id="rPZwcQ" name="variablesawosc.cpp" compile="1" resource="0"
+                file="Source/daisysp/Synthesis/variablesawosc.cpp"/>
+          <FILE id="oPZWBx" name="variablesawosc.h" compile="0" resource="0"
+                file="Source/daisysp/Synthesis/variablesawosc.h"/>
+          <FILE id="a27lpt" name="variableshapeosc.cpp" compile="1" resource="0"
+                file="Source/daisysp/Synthesis/variableshapeosc.cpp"/>
+          <FILE id="WWHohp" name="variableshapeosc.h" compile="0" resource="0"
+                file="Source/daisysp/Synthesis/variableshapeosc.h"/>
+          <FILE id="bU0jBU" name="vosim.cpp" compile="1" resource="0" file="Source/daisysp/Synthesis/vosim.cpp"/>
+          <FILE id="JFi7NH" name="vosim.h" compile="0" resource="0" file="Source/daisysp/Synthesis/vosim.h"/>
+          <FILE id="A3GBOQ" name="zoscillator.cpp" compile="1" resource="0" file="Source/daisysp/Synthesis/zoscillator.cpp"/>
+          <FILE id="umomB7" name="zoscillator.h" compile="0" resource="0" file="Source/daisysp/Synthesis/zoscillator.h"/>
+        </GROUP>
+        <GROUP id="{0BD480AC-330C-6B35-55E9-3C56BE8AF6E1}" name="Utility">
+          <FILE id="qFGXIb" name="dcblock.cpp" compile="1" resource="0" file="Source/daisysp/Utility/dcblock.cpp"/>
+          <FILE id="s9b2ZO" name="dcblock.h" compile="0" resource="0" file="Source/daisysp/Utility/dcblock.h"/>
+          <FILE id="CtueZ1" name="delayline.h" compile="0" resource="0" file="Source/daisysp/Utility/delayline.h"/>
+          <FILE id="fSfaB7" name="dsp.h" compile="0" resource="0" file="Source/daisysp/Utility/dsp.h"/>
+          <FILE id="ydHUji" name="looper.h" compile="0" resource="0" file="Source/daisysp/Utility/looper.h"/>
+          <FILE id="d0bOvP" name="maytrig.h" compile="0" resource="0" file="Source/daisysp/Utility/maytrig.h"/>
+          <FILE id="uSg5uX" name="metro.cpp" compile="1" resource="0" file="Source/daisysp/Utility/metro.cpp"/>
+          <FILE id="Z0J0t3" name="metro.h" compile="0" resource="0" file="Source/daisysp/Utility/metro.h"/>
+          <FILE id="wOzo4L" name="samplehold.h" compile="0" resource="0" file="Source/daisysp/Utility/samplehold.h"/>
+          <FILE id="SVrJXY" name="smooth_random.h" compile="0" resource="0" file="Source/daisysp/Utility/smooth_random.h"/>
+        </GROUP>
+        <FILE id="FwaWZB" name="daisysp.h" compile="0" resource="0" file="Source/daisysp/daisysp.h"/>
+      </GROUP>
+      <FILE id="XUEabc" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="nlAIJq" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="mctqjY" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="YpnwzC" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="d&#233;s-brassard"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="d&#233;s-brassard"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
